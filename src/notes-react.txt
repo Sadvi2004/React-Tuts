@@ -1,0 +1,53 @@
+what is ReactJs?
+-JavaScript is having libraries and framework.
+    libraries: it is a collection of libraries they are having leass set of rules eg:(ReactJs,jquery,ember etc...)
+    framework: it is a collection of libraries they are having more set of rules eg:(angular,vuejs,pebble etc...)
+
+-React was developed by facebook(2011) later it was made open-source in 2013 'Jordan walke' platform independent.
+-React is a JavaScript library used to create userInterfaces.
+-React is faster because of virtual DOM.
+-React follows component based approach.
+-React follows unidirectional data follow.
+-React follow both client and server side rendering.
+
+what is virtual DOM?
+-virtual DOM is a virtual representation of a UI which is kept in a memory and later synced with real DOM by using a library called React.
+diffing algorithm : with this algorithm mapping will happing between virtual DOM and Real DOM.
+-The process of updating the Real DOM with virtual DOM is called reconciliation.
+
+-installation of React application:
+- install nodejs
+-npm install create-react-app --globally
+-install react app with foldername
+-npm init reat-app myapp.
+
+React.createElement("type of tag",{prop})
+-JSX is case sensitive.
+
+Rules of jsx:
+********************************
+-Every tag must be closed.
+
+-class based component:
+********************************
+-this is similar to JavaScript es6 class syntax.
+-there are by default callled as statefull component.
+-class app extends react.component{
+    render(){
+        return({
+            <div></div>
+        })
+    }
+}
+export default App.
+
+functional based component:
+********************************
+this is similar to JavaScript functions.
+there are by default called as stateless components.
+-function App(){
+    return(
+        div
+    )
+}
+export default app;
