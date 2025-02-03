@@ -1,3 +1,5 @@
+https://github.com/Sadvi2004/React-Tuts
+
 what is ReactJs?
 -JavaScript is having libraries and framework.
     libraries: it is a collection of libraries they are having leass set of rules eg:(ReactJs,jquery,ember etc...)
@@ -51,3 +53,9 @@ there are by default called as stateless components.
     )
 }
 export default app;
+
+props:
+********************************
+props is used to share the data from one component to another component.
+props can be passed string,number,boolean,array,object,function all the datatypes can be passed
+props can be passed from parent to child components
