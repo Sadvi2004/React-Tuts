@@ -20,11 +20,19 @@ import React from "react";
 // export default App;
 import Prop1 from "./Propsexample/Prop1";
 import Prop2 from "./Propsexample/Prop2";
+import PropsChildern from "./Propsexample/PropsChildern";
+import ChildProps from "./Propsexample/ChildProps";
+import Chi from "./Propsexample/Chi";
 function App() {
   return (
     <div>
       <Prop1 name="Sadvi" age={20} desig={['developer', 'designer']} userdetails={{ city: "Hyd", area: "maisammaguda" }} sendFun={function () { alert("Hi im from parent component") }} />
       <Prop2 name="John" isLoggedIn={true} hobbies={["basketball", "coding", "playing", "music"]} />
+      <PropsChildern username="sadvi" company="Meta">
+        <h1>This data is passed as props children</h1>
+        <ChildProps />
+      </PropsChildern>
+      <Chi name="vishnu" />
     </div>
   )
 }

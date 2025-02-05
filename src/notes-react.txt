@@ -59,3 +59,7 @@ props:
 props is used to share the data from one component to another component.
 props can be passed string,number,boolean,array,object,function all the datatypes can be passed
 props can be passed from parent to child components
+
+state:
+********************************
+state is an object which is used to store/isolate the data inside the component.
