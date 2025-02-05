@@ -23,10 +23,8 @@ import Prop2 from "./Propsexample/Prop2";
 function App() {
   return (
     <div>
-      <Prop1 name="Sadvi" age={20} />
-      <Prop2 name="John" age={25} />
-      <Prop1 name="Bob" age={30} />
-      <Prop2 name="Alice" age={35} />
+      <Prop1 name="Sadvi" age={20} desig={['developer', 'designer']} userdetails={{ city: "Hyd", area: "maisammaguda" }} sendFun={function () { alert("Hi im from parent component") }} />
+      <Prop2 name="John" isLoggedIn={true} hobbies={["basketball", "coding", "playing", "music"]} />
     </div>
   )
 }
