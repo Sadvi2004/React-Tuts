@@ -32,6 +32,7 @@ Rules of jsx:
 
 -class based component:
 ********************************
+this keyword always target the current objeect.
 -this is similar to JavaScript es6 class syntax.
 -there are by default callled as statefull component.
 -class app extends react.component{
@@ -63,3 +64,11 @@ props can be passed from parent to child components
 state:
 ********************************
 state is an object which is used to store/isolate the data inside the component.
+initial value of the state is null we store the variables as object.
+
+hooks:
+********************************
+hooks are nothing but functions there are used to provide all the features of class
+1.useState():making functional component from stateless to statefull component
+2.useEffect()
+3.useContext()
