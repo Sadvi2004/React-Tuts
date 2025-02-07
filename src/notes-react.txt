@@ -72,3 +72,12 @@ hooks are nothing but functions there are used to provide all the features of cl
 1.useState():making functional component from stateless to statefull component
 2.useEffect()
 3.useContext()
+
+TightCoupling:
+********************************
+One is dependent upon another between components
+child component->parent component
+
+LooseCoupling:
+********************************
+There is no dependency.
