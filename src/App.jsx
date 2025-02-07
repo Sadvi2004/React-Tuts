@@ -25,6 +25,7 @@ import React from "react";
 // import Chi from "./Propsexample/Chi";
 // import StateEx from "./statesExample/StateEx";
 import CounterEx from "./statesExample/CounterEx";
+import Demo from "./demo/Demo";
 function App() {
   return (
     <div>
@@ -36,7 +37,8 @@ function App() {
       </PropsChildern>
       <Chi name="vishnu" />
       <StateEx /> */}
-      <CounterEx />
+      {/* <CounterEx /> */}
+      <Demo />
     </div>
   )
 }
