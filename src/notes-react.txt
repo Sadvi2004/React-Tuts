@@ -81,3 +81,18 @@ child component->parent component
 LooseCoupling:
 ********************************
 There is no dependency.
+
+<React.Fragment>:
+******************************
+-It is act as a parent element for the Jsx. but it wont create any extra node It act like key prop
+
+useRef():
+******************************
+this hook used to target the real dom elements
+we should avoid using of ref more expect some situation like media controlling,animations
+audio and video tags are empty tags. there are only capable of taking source.
+
+useContext():
+********************************
+to avoid props drilling we use this hook.
+directly pass the element to the parent.

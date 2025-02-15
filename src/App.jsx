@@ -23,9 +23,25 @@ import React from "react";
 // import PropsChildern from "./Propsexample/PropsChildern";
 // import ChildProps from "./Propsexample/ChildProps";
 // import Chi from "./Propsexample/Chi";
-// import StateEx from "./statesExample/StateEx";
-import CounterEx from "./statesExample/CounterEx";
-import Demo from "./demo/Demo";
+// import CounterEx from "./statesExample/CounterEx";
+// import ExuseEffect from "./hooks/ExuseEffect";
+// import RefEx from "./hooks/RefEx";
+// import ContextApi from "./contextapi/ContextApi";
+// import ContextC1 from "./contextapi/ContextC1";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import Homepage from "./Pages/Homepage";
+// import Aboutpage from "./Pages/Aboutpage";
+// import PageNotFound from "./components/PageNotFound";
+// import Profile from "./Pages/Profile";
+// import MyAccount from "./Pages/MyAccount";
+// import MySettings from "./Pages/MySettings";
+// import UserForm from "./components/UserForm";
+// import TeachForm from "./components/TeachForm";
+
+import Create from "./crudcomponents/Create";
+import Edit from "./crudcomponents/Edit";
+import Home from "./crudcomponents/Home";
+import { ToastContainer } from 'react-toastify'
 function App() {
   return (
     <div>
@@ -38,7 +54,38 @@ function App() {
       <Chi name="vishnu" />
       <StateEx /> */}
       {/* <CounterEx /> */}
-      <Demo />
+      {/* <ExuseEffect /> */}
+      {/* <RefEx /> */}
+      {/* <ContextApi>
+        <ContextC1 />
+      </ContextApi> */}
+      {/* <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/about" element={<Aboutpage />} />
+          <Route path="/profile" element={<Profile />}>
+            <Route path="myaccount" element={<MyAccount />} />
+            <Route path="mysettings" element={<MySettings />} />
+          </Route>
+          <Route path="/userform" element={<UserForm />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </BrowserRouter>
+      <TeachForm /> */}
+
+
+      <BrowserRouter>
+        <ToastContainer />
+        <Routes>
+          <Route path="create" element={<Create />} />
+          <Route path="edit/:id" element={<Edit />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+
+      </BrowserRouter>
+
+
     </div>
   )
 }

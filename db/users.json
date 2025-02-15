@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "name": "shan1",
+      "email": "shan123@gmail.com",
+      "phone": "1234567891",
+      "id": "1"
+    },
+    {
+      "name": "vishnu batula",
+      "email": "vishnu@example",
+      "phone": "9346041321",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "sadvi",
+      "email": "sadvi@example",
+      "phone": "7670988077"
+    },
+    {
+      "id": "e567",
+      "name": "hii",
+      "email": "hi@gmail.com",
+      "phone": "1234567890"
+    },
+    {
+      "name": "yashwanth",
+      "email": "yashu@gmail.com",
+      "phone": "1234546890",
+      "id": "45de"
+    }
+  ]
+}
