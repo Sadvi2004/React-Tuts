@@ -62,7 +62,7 @@ function Home() {
                                 <td>{item.email}</td>
                                 <td>{item.phone}</td>
                                 <td>
-                                    <Link to={`/edit/${item.id}`}><button>Edit</button></Link>
+                                    <Link to={`/edit/${item.id}`}><button className='sbtn'>Edit</button></Link>
                                 </td>
                             </tr>
                         ))}
